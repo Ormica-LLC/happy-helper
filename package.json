@@ -1,20 +1,23 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "happy-helper",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog and resource for all things home improvement, provided by HelpListed and powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "authors": [
+    "Kyle Mathews <mathews.kyle@gmail.com>",
+    "Michael Rehnert <michael@ormica.com>"
+  ],
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Ormica-LLC/happy-helper/issues"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@lyket/react": "^1.4.8",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.8.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.10",
     "@parcel/config-default": "^2.6.0",
     "algoliasearch": "^4.13.1",
     "charter-webfont": "^4.1.0",
@@ -49,16 +52,17 @@
   "devDependencies": {
     "prettier": "^2.6.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://blog.helplisted.com",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/Ormica-LLC/happy-helper.git"
   },
   "scripts": {
+    "install-deps": "npm install --legacy-peer-deps",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
